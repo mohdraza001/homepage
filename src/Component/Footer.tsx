@@ -63,10 +63,10 @@ export default function Footer() {
         }}
       >
         <Box><img src='https://www.soware.in/images/logo.png'/></Box>
-        <Container maxWidth="xs" style={{paddingRight:'100px'}}>
-          <Typography variant="body1">
+        <Container maxWidth="xs" style={{paddingRight:'100px',float:'right'}}>
+          {/* <Typography variant="body1">
             My sticky footer can be found here.
-          </Typography>
+          </Typography> */}
           <Copyright />
         </Container>
       </Box>

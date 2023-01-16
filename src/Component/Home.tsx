@@ -1,6 +1,6 @@
 import { Container } from '@mui/material'
-import React from 'react'
-import Slider from './Slider'
+// import React from 'react'
+import Sliders from './Slider'
 import Footer from './Footer'
 import OngoingCard from './MovieDash/OngoingCard'
 import PastCard from './MovieDash/PastCard'
@@ -10,7 +10,7 @@ import UpcommingCard from './MovieDash/UpcommingCard'
 export default function Home():JSX.Element {
   return (
     <>
-    <Slider/>
+    <Sliders/>
     <Container maxWidth="xl" color="primary" style={{minHeight: '50vh'}}>
       <>
       <br/>
