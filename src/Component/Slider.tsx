@@ -68,7 +68,7 @@ export default function Sliders(){
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
-          centerPadding: "0px",
+          centerPadding: "25px",
           centerMode: true,
         }
       }
@@ -78,13 +78,13 @@ export default function Sliders(){
     <Container maxWidth="xl" style={{background:'whitesmoke',paddingTop:'5px',paddingLeft:'50xp'}}>
         <Slider {...settings}>
           <div  className="a1">
-            <img src='https://assets-in.bmscdn.com/promotions/cms/creatives/1672137034486_ritvizweb.jpg' style={{borderRadius:'20px'}}/>
+            <img src='https://assets-in.bmscdn.com/promotions/cms/creatives/1672137034486_ritvizweb.jpg' style={{borderRadius:'20px'}} id="b1"/>
           </div>
           <div className="a2">
-          <img src='https://assets-in.bmscdn.com/promotions/cms/creatives/1670502578966_web.jpg' style={{borderRadius:'20px'}}/>
+          <img src='https://assets-in.bmscdn.com/promotions/cms/creatives/1670502578966_web.jpg' style={{borderRadius:'20px'}} id="b2"/>
           </div>
           <div className="a3">
-          <img src='https://assets-in.bmscdn.com/promotions/cms/creatives/1672137034486_ritvizweb.jpg' style={{borderRadius:'20px'}}/>
+          <img src='https://assets-in.bmscdn.com/promotions/cms/creatives/1672137034486_ritvizweb.jpg' style={{borderRadius:'20px'}} id="b3"/>
           </div>
         </Slider>
       </Container>

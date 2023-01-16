@@ -8,17 +8,19 @@
   .slick-slider {
     margin:0 -20px;
     overflow: hidden;
+    position: relative;
 }
-@media only screen and (max-width: 400px){
-  .a1 img{
-    width:100px; 
-  }
-  .a2 img{
-    width:100px;
-  }
-  .a3 img{
-    width:100px;
-  }
+@media only screen and (max-width: 480px){
+#b1{
+  width: 400px;
+}
+#b2{
+   width: 400px;
+}
+#b3{
+    width: 400px;
+}
+
 }
 @media only screen and (max-width: 600px){
     .a1 img{
@@ -30,6 +32,7 @@
     .a3 img{
       width:200px;
     }
+
   }
   @media only screen and (max-width: 1024px){
     .a1 img{
