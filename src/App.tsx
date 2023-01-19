@@ -1,16 +1,21 @@
-import Home from './Component/Home';
-import NavBars from './Component/NavBars';
-import { BrowserRouter as Router ,Routes,Route } from 'react-router-dom';
-function App():JSX.Element{
+import React from "react";
+import { LoginPage } from "./Screens/Login/Login";
+import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
+import { ForgotPassword } from "./Screens/Login/ForgotPassword";
+import { ResetPassword } from "./Screens/Login/ResetPassword";
+
+function App() {
   return (
-  <>
-  <Router>
-    <NavBars/>
-    <Routes>
-      <Route path='/' element={<Home/>}/>
-    </Routes>
-  </Router>
-  </>
+    <>
+    <Router>
+      <Routes>
+        <Route path="/login" element={<LoginPage />}/>
+        <Route path="/forgotpassword" element={<ForgotPassword />}/>
+        <Route path="/resetpassword" element={<ResetPassword />}/>
+      </Routes>
+    </Router>
+    {/* <LoginPage /> */}
+    </>
   );
 }
 
